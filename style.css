@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(45, 29, 29);
+}
+.flex {
+    display: flex;
+}
+h2 {
+    color: black;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.container {
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: white;
+    width: 360px;
+    height: 480px;
+    box-shadow: 5px 8px 9px 7px rgb(148, 132, 164);
+    flex-direction: column;
+    margin-left: 37%;
+    margin-top: 60px;
+    align-items: center;
+    gap: 22px;
+    /* transform: rotate(1deg) */
+}
+.inputfield1 {
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 5px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid rgb(212, 212, 237);
+}
+.inputfield2 {
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 5px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid rgb(212, 212, 237);
+}
+.form-email, .form-password label {
+    color: black;
+    font-size: 1.15rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+    color: black;
+    background-color: rgb(187, 140, 231);
+    font-family: Roboto, sans-serif;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.already a {
+    text-decoration: none;
+    color: rgb(101, 73, 73);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.already a:hover {
+    color: rgb(249, 30, 30);
+}
+.continue {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-block: 10px;
+}
+.continue-google {
+    background-color: green;
+    color: rgb(234, 226, 226);
+}
+.continue-yahoo {
+    background-color: cornflowerblue;
+    color: rgb(27, 27, 21);
+}
+
+.change {
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.copyright {
+    color:rgb(130, 96, 21);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
